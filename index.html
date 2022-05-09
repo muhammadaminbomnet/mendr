@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notebook</title>
+    <!-- link style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link fontawesome 5.10.0 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
+    <!-- link script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="dostavka border-bottom border-dark border-4 d-flex justify-content-center align-items-center">
+            <img class="me-3" style="width: 300px;" src="image/dostavka_bor.jpg">
+            <p class="text-white fs-3 fw-bold">O'ZBEKISTON BO'YICHA NOTUK YETKAZISH!</p>
+        </div>
+        <div class="dostavka-search py-4 container">
+           <div class="row justify-content-between">
+            <div class="col-lg-3 d-flex justify-content-center col-md-6 col-sm-12">
+                <img src="image/logo.svg">
+            </div>
+            <div class="col-lg-5 px-4 col-md-6 col-sm-12">
+                <div class="d-flex mt-4">
+                    <p class="fs-12 me-2">Aktsiyalarni o'tkazib yubormang - obuna bo'ling!</p>
+                    <i class="fab fa-facebook-f rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                    <i class="fab fa-instagram rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                    <i class="fab fa-telegram-plane rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                </div>
+                <div class="inp p-0 position-relative mt-2">
+                    <input type="text" class="col-12 border-1 fs-12 py-2 ps-2" placeholder="Mahsulot qidirish">
+                    <i class="fal fa-search fs-5 text-warning position-absolute top-50 translate-middle end-0"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 p-0 col-md-6 col-sm-12">
+                <p class="fs-12 mb-1">Do'kon 9:00 dan 18:00 gacha ishlaydi</p>
+                <p class="fs-12 mb-1">Manzil: Malik bozori B-14, B-26</p>
+                <div class="d-flex align-items-center">
+                    <img class="me-2" src="image/phone_top.svg">
+                    <p class="fs-5 mb-0">aloqa telefon raqami <br> +998 99 633-31-11</p>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="navbar shadow bg-nav p-0 navbar-expand-lg sticky-top">
+            <div class="w-75 mx-auto px-5"><ul class="w-100 navbar-nav justify-content-around">
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">uy sahifa</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">noutbuklar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">transformatorlar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">O'yin noutbuklari</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">Aksessuarlar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white fs-5">Kontaktlar</a></li>
+            </ul></div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- fixed start -->
+    <div class="fixed">
+       <img src="https://notebookoff.uz/image/icons/tgbut.svg">
+    </div>
+    <!-- fixed end -->
+
+    <!-- header start -->
+    <header>
+        <div class="carousel mt-2">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img height="450px" style="object-fit: cover;" src="image/slider.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="450px" style="object-fit: cover;" src="image/slider-1.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="450px" style="object-fit: cover;" src="image/slider-2.jpg" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev px-3 justify-content-start" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <div class="w-20 d-flex align-items-center justify-content-center rounded-circle bg-dark">
+                    <span class="carousel-control-prev-icon nexts" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </div>
+                </button>
+                <button class="carousel-control-next px-3 justify-content-end" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                 <div class="w-20 d-flex align-items-center justify-content-center rounded-circle bg-dark">
+                    <span class="carousel-control-next-icon nexts" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                 </div>
+                </button>
+              </div>
+        </div>
+        <p class="fs-4 fw-bold my-2 container">
+            BREND TANLANG
+        </p>
+        <div class="bg-light">
+            <div class="container justify-content-between d-flex align-items-center py-2">
+                <img src="image/1.svg" style="width: 50px; height: 51px;">
+                <img src="image/5.svg" style="width: 130px; height: 46px;"> 
+                <img src="image/2.svg" style="width: 120px; height: 23px;"> 
+                <img src="image/3.svg" style="width: 50px; height: 52px;"> 
+                <img src="image/4.svg" style="width: 120px; height: 26px;"> 
+                <img src="image/6.svg" style="width: 100px; height: 30px;"> 
+                <img src="image/7.svg" style="width: 90px; height: 41px;"> 
+                <img src="image/8.svg" style="width: 90px; height: 59px;"> 
+                <img src="image/9.svg" style="width: 130px; height: 72px;">
+                <img src="image/10.svg" style="width: 130px; height: 72px;"> 
+                </div>
+        </div>
+        <p class="fs-3 my-2 container">
+            Yangi kelganlar. Noutbuklar Toshkentda
+        </p>
+    </header>
+    <!-- header end -->
+
+    <!-- section start -->
+    <section>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                        <img src="image/notebook/gigabyte_g5-400x400.jpeg" style="height: 300px;" width="100%">
+                        <div class="text">
+                            <p style="min-height:96px;">Gigabyte G5 (i5 11400H |16 GB ОЗУ | 512 GB SSD NVMe| RTX 3050 | 15.6" Full HD IPS 144 Hz)</p>
+                            <p class="text-secondary text-center fs-5">950 $</p>
+                            <p class="text-center fs-5">10 687 500 сум.</p>
+                            <p class="text-secondary text-center mb-2">QQSsiz</p>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                                    <a href="index2.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                        Qarang
+                                    </a>
+                                </button>
+                            </div>
+                            <div class="d-flex mt-2 justify-content-center">
+                                <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                                    <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                        Savol bering - Buyurtma
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                    <img src="image/notebook/msi_moder_14_1-400x400.jpeg" style="height: 300px;" width="100%">
+                    <div class="text">
+                        <p style="min-height:96px;">MSI Modern 14 B11M (Intel i5-1155G7 | 8 GB ОЗУ | 512GB PCIe SSD | 15.6" Full HD IPS)</p>
+                        <p class="text-secondary text-center fs-5">700 $</p>
+                        <p class="text-center fs-5">7 875 000 сум.</p>
+                        <p class="text-secondary text-center mb-2">QQSsiz</p>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                                <a href="index3.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                    Qarang
+                                </a>
+                            </button>
+                        </div>
+                        <div class="d-flex mt-2 justify-content-center">
+                            <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                                <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                    Savol bering - Buyurtma
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                <img src="image/notebook/galaxybook_pro_950xdb_blue-400x400.jpg" style="height: 300px;" width="100%">
+                <div class="text">
+                    <p style="min-height:96px;">SAMSUNG Galaxy Book Pro (Intel Core i7 1165G7 | 16 ГБ ОЗУ | 512 ГБ SSD | 15,6-дюймовый AMOLED)</p>
+                    <p class="text-secondary text-center fs-5">1150 $</p>
+                    <p class="text-center fs-5">12 937 500 сум.</p>
+                    <p class="text-secondary text-center mb-2">QQSsiz</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                            <a href="index4.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                Qarang
+                            </a>
+                        </button>
+                    </div>
+                    <div class="d-flex mt-2 justify-content-center">
+                        <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                            <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                Savol bering - Buyurtma
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+            <img src="image/notebook/hp_victus16-400x400.jpeg" style="height: 300px;" width="100%">
+            <div class="text">
+                <p style="min-height:96px;">HP Victus 16-d0181tx (i5-11400H | 8GB | SSD 256 GB | RTX 3050 4G | 16,1" FHD IPS 144Hz)</p>
+                <p class="text-secondary text-center fs-5">860 $</p>
+                <p class="text-center fs-5">9 675 000 сум.</p>
+                <p class="text-secondary text-center mb-2">QQSsiz</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                        <a href="index5.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                            Qarang
+                        </a>
+                    </button>
+                </div>
+                <div class="d-flex mt-2 justify-content-center">
+                    <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                        <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                            Savol bering - Buyurtma
+                        </div>
+                    </button>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                        <img src="image/notebook/asus_rog_g513_nump-400x400.jpg" style="height: 300px;" width="100%">
+                        <div class="text">
+                            <p style="min-height:96px;">Asus Rog Strix G15 G513RC-HN015 (Ryzen 7-6800H | ОЗУ 8 Гб | SSD 512 Гб | RTX 3050 | 15,6 FHD WV 144Hz)</p>
+                            <p class="text-secondary text-center fs-5">1250 $</p>
+                            <p class="text-center fs-5">14 062 500 сум.</p>
+                            <p class="text-secondary text-center mb-2">QQSsiz</p>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                                    <a href="index6.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                        Qarang
+                                    </a>
+                                </button>
+                            </div>
+                            <div class="d-flex mt-2 justify-content-center">
+                                <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                                    <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                        Savol bering - Buyurtma
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                    <img src="image/notebook/lenovo_legion17_1-400x400.jpg" style="height: 300px;" width="100%">
+                    <div class="text">
+                        <p style="min-height:96px;">Lenovo Legion 5 17ACH6H (Ryzen 7-5800H | 8 ГБ ОЗУ | 256 ГБ SSD | RTX 3060 6 ГБ | 17,3" FHD IPS 144Hz)</p>
+                        <p class="text-secondary text-center fs-5">1300 $</p>
+                        <p class="text-center fs-5">14 625 000 сум.</p>
+                        <p class="text-secondary text-center mb-2">QQSsiz</p>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                                <a href="index7.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                    Qarang
+                                </a>
+                            </button>
+                        </div>
+                        <div class="d-flex mt-2 justify-content-center">
+                            <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                                <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                    Savol bering - Buyurtma
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+                <img src="image/notebook/asus_vivobook_pro_2-400x400.jpg" style="height: 300px;" width="100%">
+                <div class="text">
+                    <p style="min-height:96px;">ASUS VivoBook Pro 15 ( Ryzen™ 5 5600H | 8 Гб ОЗУ | SSD 256 Гб | 15,6" FHD OLED)</p>
+                    <p class="text-secondary text-center fs-5">700 $</p>
+                    <p class="text-center fs-5">7 875 000 сум.</p>
+                    <p class="text-secondary text-center mb-2">QQSsiz</p>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                            <a href="index8.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                                Qarang
+                            </a>
+                        </button>
+                    </div>
+                    <div class="d-flex mt-2 justify-content-center">
+                        <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                            <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                                Savol bering - Buyurtma
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3">
+            <img src="image/notebook/lenovo_legion17_R5-400x400.jpg" style="height: 300px;" width="100%">
+            <div class="text">
+                <p style="min-height:96px;">Lenovo Legion 5 (AMD Ryzen 5 5600H | 8 ГБ | 256 ГБ | NVIDIA GeForce GTX 1650 | 17,3" FHD IPS)</p>
+                <p class="text-secondary text-center fs-5">900 $</p>
+                <p class="text-center fs-5">10 125 000 сум.</p>
+                <p class="text-secondary text-center mb-2">QQSsiz</p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn w-75 rounded-0 border border-dark d-flex" style="padding: 2px;">
+                        <a href="index9.html" class="bg-nav d-flex align-items-center justify-content-center nav-link mmm position-relative w-100 text-white" style="height: 34px;">
+                            Qarang
+                        </a>
+                    </button>
+                </div>
+                <div class="d-flex mt-2 justify-content-center">
+                    <button class="btn btn w-75 rounded-0 border border-dark" style="padding: 2px;">
+                        <div class="bg-info mmm position-relative d-flex align-items-center justify-content-center w-100 text-white" style="height: 40px;">
+                            Savol bering - Buyurtma
+                        </div>
+                    </button>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 px-4">
+            <div class="row">
+                <div class="col-lg-6 px-4">
+                    <p class="m-0 ps-4">Biz Toshkentda shaxsiy kompyuterlardan kichik og‘irligi va oddiy o‘lchami, munosib funksionalligi bilan ajralib turadigan noutbuklarni xarid qilishni tavsiya qilamiz. Noutbukning ushbu afzalliklari tufayli siz ishga borishingiz, xizmat safarida qulay bo'lishingiz, ma'ruzalarda o'tirishingiz, seminarlarda taqdimot qilishingiz mumkin. Maʼlumki, Toshkentda noutbuklar narxi juda yuqori, ammo bizning doʻkonimizda ushbu mahsulotlarning narxi eng tejamkor diapazonda. Toshkentda noutbuklar savdosi tobora ommalashib bormoqda. Og'irligi pastligi, ixchamligi va simlari yo'qligi tufayli siz bunday qurilma bilan etarli joy bo'lmagan kichik kvartirada ham ishlashingiz mumkin. Siz ish stolisiz qilishingiz mumkin va ta'mirlash yoki tozalashda siz ishni bajarish uchun oshxonaga osongina joylashishingiz mumkin. Sizni Toshkentdagi noutbuklar do'konimizga taklif qilamiz. Malikdagi Toshkentdagi noutbuklar narxlari sizni hayratda qoldiradi, bu ayniqsa quyidagilar bilan birga qimmatlidir:
+                        - Zo'r funksionallik;
+                        - korporativ yig'ilish;
+                        - do'kon xizmati;
+                        - xodimlarning malakasi;
+                        - Materiallar sifati.</p>
+                </div>
+               <div class="col-lg-6 d-flex justify-content-center">
+                   <img src="image/blog.jpeg">
+               </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="https://notebookoff.uz/image/catalog/using-laptop-emotional-caucasian-young-woman-s-portrait-isolated-green-wall-beautiful-female-model-white-shirt-min(1)_548x365.jpg">
+                </div>
+                <div class="col-lg-6 px-4">
+                    <p class="m-0 ps-4">HP, asus, lenovo, acer noutbuklari chiroyli ko'rinish, narx va sifatning eng yaxshi muvozanati bilan solishtiriladi. Avtonom ish rejimi tufayli siz uzoq vaqt simsiz ishlashingiz mumkin. Ish stoli kompyuterlari uchun alohida simlar bilan jihozlangan tashqi qurilmalar, monitor, dinamiklar, minigarnituralar, mikrofon kerak. Shuning uchun, xonani tozalashda har bir aksessuarga ayniqsa ehtiyot bo'lishingiz kerak. Biz Toshkentdagi eng zo'r o'yin noutbuklari, transformatorlar va ultrabuklarni sotamiz. Bizdan o'qish yoki ish uchun, uyda foydalanish yoki uzoq safarlar uchun juda mos bo'lgan arzon narxlarda noutbuk sotib oling. Sizni qiziqtirgan tovarlar bo'yicha bepul maslahat olish uchun vakolatli menejerlarimizga murojaat qiling. Funktsionallik, narx va boshqa texnik parametrlar bo'yicha sizning afzalliklaringizga to'liq mos keladigan noutbukni tanlashda yordam beramiz.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5 fs-2 fw-bold mt-4">
+            YO'L XARITASI
+        </div>
+    </section>
+    <!-- section end -->
+
+    <!-- footer start -->
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5992.39796259579!2d69.21459197998048!3d41.326286315917976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1652099483801!5m2!1sru!2s" width="100%" height="400px" class="my-4" style="border-top: 5px solid #04184B; border-bottom: 5px solid #04184B;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact text-white bg-nav py-4">
+            <div class="dostavka-search py-4 container">
+                <div class="row justify-content-center">
+                 <div class="col-lg-3 mx-4 d-flex justify-content-center col-md-6 col-sm-12">
+                     <img src="	https://notebookoff.uz/image/footer_logo.svg">
+                 </div>
+                 <div class="col-lg-3 mx-4 d-flex align-items-start p-0 col-md-6 col-sm-12">
+                         <img class="me-2" width="60px" src="image/phone_top.svg">
+                         <div class="fs-6 mb-0">Dushanba - Yakshanba / 09:00 18:00 <br>
+                        <p class="fs-4 m-0">+998 99 633-31-11 <br> 
+                            +998 98-123-12-11 <br>
+                            +998 97-733-38-00</p>
+                        </div>
+                 </div>
+                 <div class="col-lg-3 mx-4 px-4 col-md-6 col-sm-12">
+                    <div class="mt-4 text-center">
+                        <p class="fs-12 me-2">Aktsiyalarni o'tkazib yubormang - obuna bo'ling!</p>
+                        <div class="d-flex pb-3 justify-content-center">
+                            <i class="fab fa-facebook-f rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                        <i class="fab fa-instagram rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                        <i class="fab fa-telegram-plane rounded-circle d-flex align-items-center justify-content-center text-white mx-2"></i>
+                    </div>
+                    <p>www.notebookoff.uz</p>    
+                </div>
+                </div>
+                </div>
+             </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>

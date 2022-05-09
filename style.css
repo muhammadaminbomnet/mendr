@@ -1,0 +1,56 @@
+.dostavka{background-color: #ff9501;}
+.fs-12{font-size: 12px;}
+.dostavka-search .d-flex i{
+    width: 25px;
+    height: 25px;
+    background-color: #ff9501;
+}
+.dostavka-search input{
+    border-radius: 10px;
+    outline: none;
+}
+.bg-nav{background-color: #04184B;}
+.bg-nav li a:hover{text-decoration: underline !important;}
+header .carousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+.nexts{
+    width: 20px !important;
+    height: 20px !important;
+}
+.w-20{
+    width: 40px !important;
+    height: 40px !important;
+}
+.mmm::after{
+    content: "";
+    width: 25px;
+    height: 100%;
+    background-color: white;
+    transform: skewX(-15deg);
+    position: absolute;
+    left: -40px;
+    opacity: 1;
+    transition: 0.4s all;
+}
+header .hov i{transition: 0.4s all;}
+header .hov i:hover{margin-top: -7px !important;}
+.w-75:hover ::after{left: 110% !important;}
+.w-50:hover ::after{left: 110% !important;}
+.hovbor:hover{border: 1px solid black !important;}
+.fixed{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+.rrs{color: #ff9501;}
+.inpe{
+    border-bottom:1px solid !important;
+    border: none;
+    outline: none;
+}
+.ewenly .row:nth-child(even){
+    background-color: gainsboro;
+}
